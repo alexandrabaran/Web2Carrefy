@@ -1,5 +1,0 @@
-- Definir tema (ideas: supermercado)
-- Llenar planilla grupo (no la encuentro) 
-- Hacer repo GIT-GitHub (agregar colaboradora etc)
-- DER (phpmyadmin/drawio) 
-- Readme. Markdown agregar foto 
