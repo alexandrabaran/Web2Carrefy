@@ -1,0 +1,13 @@
+<?php require 'templates/header.phtml'; ?>
+
+<h3>Detalle del producto:</h2>
+    <ul>
+        <?php foreach($products as $product): ?>
+        <h3>Nombre:<?= $product->product_name?></h3>
+        <li>Categoría: <?= $product->category_name?></li>
+        <li>Cantidad disponible: <?= $product->product_stock?></li>
+        <li>Precio: <?= $product->product_price?></li>
+        <?php endforeach ?>
+    </ul>
+
+<?php require 'templates/footer.phtml'; ?>

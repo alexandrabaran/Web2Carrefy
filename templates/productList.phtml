@@ -1,0 +1,19 @@
+<?php require_once "templates/header.phtml"; ?>
+
+<h2>Nuestros productos</h2>
+
+    <div>
+        <ul>
+            <?php foreach($products as $product): ?>
+            <li> 
+                 <div>
+                     <h3><?= $product->product_name?></h5>
+                     <p>Categoría: <?=$product->category_name?> </p>
+                     <div><button><a href="<?=BASE_URL?>product-details/<?= $product->product_id ?>">Ver detalles</a>
+                </div>
+            </li>
+            <?php endforeach ?>
+        </ul>
+    </div>
+
+<?php require_once "templates/footer.phtml"; ?>
